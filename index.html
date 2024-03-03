@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/uber-move-text" rel="stylesheet">
+    <title>Employees</title>
+</head>
+
+<body>
+    <h1>Cadastro de Funcionários</h1>
+    <section class="main-section">
+        <form action="" class="main-form">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="name">
+            <label for="data-nascimento">Data de Nascimento</label>
+            <input type="date" name="data-nascimento" id="birthday">
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" id="cpf">
+            <label for="cel">Número de Telefone</label>
+            <input type="tel" name="cel" id="cel">
+            <label for="email">E-Mail</label>
+            <input type="text" name="email" id="mail">
+            <label for="data-admissao">Data de Admissão</label>
+            <input type="date" name="data-admissao" id="dateAdmiss">
+            <label for="area">Área</label>
+            <select name="area" id="area">
+                <option value="engenharia-software">Engenharia de Software</option>
+                <option value="ciencia-dados">Ciência de Dados</option>
+                <option value="marketing">Marketing</option>
+                <option value="recursos-humanos">Recursos Humanos</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="juridico">Jurídico</option>
+            </select>
+            <button type="button" onclick="Confirm()">Confirmar</button>
+        </form>
+        <div id="data-div"></div>
+    </section>
+    <footer>Gustavo Mota 2024 ©</footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
